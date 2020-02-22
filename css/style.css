@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+}
+
+div h2 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+input {
+    margin-top: 200px;
+    width: 150px;
+    height: 70px;
+    background: blue;
+    color: white;
+}
