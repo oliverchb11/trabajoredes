@@ -4,6 +4,10 @@ table {
     width: 300px;
 }
 
+#tablaxnor {
+    width: 300px;
+}
+
 td {
     border: 1px solid black;
 }
@@ -137,4 +141,95 @@ div {
 .nor {
     margin-left: 700px;
     margin-top: 100px;
+}
+
+.pruebaand {
+    font-size: 30px;
+}
+
+#entrada {
+    margin-left: 20px;
+}
+
+#titulox {
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -770px;
+}
+
+#p1 {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#pesosumbral {
+    margin-top: -350px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+#btn {
+    margin-top: 0px;
+    margin-left: 680px;
+}
+
+#pesosumbral h1 {
+    margin-left: 680px;
+}
+
+#tablap1 {
+    width: 200px;
+    margin-left: 680px;
+}
+
+#pesosdiv {
+    margin-top: -480px;
+    position: absolute;
+}
+
+#p1 {
+    margin-left: 100px;
+}
+
+#and {
+    margin-left: 120px;
+    margin-top: -300px;
+}
+
+#entradaand {
+    margin-left: 20px;
+}
+
+#tablaand {
+    width: 300px;
+}
+
+#nor {
+    margin-left: 120px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#entradanor {
+    margin-left: 20px;
+}
+
+#tablanor {
+    width: 300px;
+}
+
+
+/*or*/
+
+#tablaor {
+    width: 300px;
+}
+
+#entradaor {
+    margin-left: 20px;
+}
+
+#or1 {
+    position: absolute;
+    margin-left: 300px;
 }

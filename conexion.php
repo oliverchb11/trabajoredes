@@ -12,9 +12,5 @@
         <input type="submit" name="XNOR" value="XNOR" OnClick="location.href='xnorp.php'">
         <input type="submit" name="XOR" value="XOR"   OnClick="location.href='xor.php'">
     </div>
-
-
-
-
     </body>
 </html>
