@@ -44,24 +44,16 @@
         // var valordeagregados;
         var variabledesalida = 0; // esperado
         document.getElementById("esperadaand").innerHTML = variabledesalida;
-
         var sumatoriapesos, x1 = 0,
             x2 = 0;
         var sumatoriapesos = (parseInt(x1) * parseFloat(miCampoTexto)) + (parseInt(x2) * parseFloat(miCampoTexto2)) + (parseInt(valordeagregados) * parseFloat(miCampoTexto3));
         var nsumatoriatotal = sumatoriapesos.toFixed(1);
         document.getElementById("pruebaand").innerHTML = nsumatoriatotal;
-
         if (sumatoriapesos > 0.5) {
             document.getElementById("pruebaand2").innerHTML = "1";
-            //validamos el error
-            //var error = variabledesalida - 1;
-            //document.getElementById("error").innerHTML = error ;
             cumpleand = document.getElementById("resultadoand").innerHTML = "no cumple";
         } else {
             document.getElementById("pruebaand2").innerHTML = "0";
-            //validamos el error
-            //var error = variabledesalida - 1;
-            //document.getElementById("error").innerHTML = error ;
             cumpleand = document.getElementById("resultadoand").innerHTML = "cumple";
         }
         //

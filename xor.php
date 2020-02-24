@@ -298,7 +298,7 @@
         document.getElementById("esperadanor").innerHTML = variabledesalida ;
 
            var sumatoriapesos , x1= 0 , x2 = 0;
-           var sumatoriapesos =  (parseInt(x1) + parseFloat(miCampoTexto)) + (parseInt(x2) + parseFloat(miCampoTexto2)) + (parseInt(valordeagregados) + parseFloat(miCampoTexto3)) ;
+           var sumatoriapesos =  (parseInt(x1) * parseFloat(miCampoTexto)) + (parseInt(x2) * parseFloat(miCampoTexto2)) + (parseInt(valordeagregados) * parseFloat(miCampoTexto3)) ;
            var nsumatoriatotal = sumatoriapesos.toFixed(1);
             document.getElementById("pruebanor").innerHTML = nsumatoriatotal ;
 

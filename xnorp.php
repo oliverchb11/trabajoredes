@@ -89,6 +89,8 @@
     <p>Wb =  <h4 id="pesos3"></h4></p>
     <p>Umbral =  <h4 id="valordeagregados"></h4></p>
 </div>
+
+
 <div class="and" id="and">
 <table class="table table-dark" id="tablaand">
 <h1>Tabla de verdad AND</h1>
@@ -129,7 +131,7 @@
 </table>
 <h2>Valor de Σ</h2>
 <br>
-<a>Σ=<h3 id="pruebaand"></h3></a>
+<a  >Σ=<h3 id="pruebaand"></h3></a>
 <br>
 <h2>Rsultados</h2>
 <br>
@@ -244,6 +246,6 @@
 <div class="or">
     <img src="compuertas/xnor1 (1).png" alt="XNOR">
 </div>-->
-<input type="submit" name="voler" value="volver" OnClick="location.href='conexion.php'" class="volver">
+<input type="submit" name="voler" value="volver"  OnClick="location.href='conexion.php'" class="volver btn btn-primary">
 </body>
 </html>
